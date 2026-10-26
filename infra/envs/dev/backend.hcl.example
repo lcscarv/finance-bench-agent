@@ -1,0 +1,3 @@
+# Copy to backend.hcl and run: terraform init -backend-config=backend.hcl
+# The bucket name is the `state_bucket` output of infra/bootstrap.
+bucket = "financebench-tfstate-<account_id>-us-east-1"

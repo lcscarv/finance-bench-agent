@@ -21,3 +21,6 @@ runs/
 # Local env
 .env
 .DS_Store
+
+# Terraform partial backend config (contains the account id)
+backend.hcl
